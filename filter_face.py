@@ -5,8 +5,8 @@ import shutil
 
 
 model = YOLO('yolo11n.pt')
-source_folder = r'D:\FPTUniversity\Capstone_Project\Code_tesst\out2'
-destination_folder = r'D:\FPTUniversity\Capstone_Project\Preprocess_Data'
+source_folder = r"D:\FPTUniversity\Capstone_Project\Code_tesst\out3"
+destination_folder = r"D:\FPTUniversity\Capstone_Project\Code_tesst\out3_test"
 
 os.makedirs(destination_folder, exist_ok=True)
 for filename in os.listdir(source_folder):

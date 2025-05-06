@@ -231,6 +231,6 @@ def process_image_folder(input_folder, output_folder):
 
 if __name__ == "__main__":
     #img_path = r"D:\FPTUniversity\Capstone_Project\Preprocess_Data\frame_0005.jpg"
-    inp_path = r"D:\FPTUniversity\Capstone_Project\Khong Say"
-    out_path = r"D:\FPTUniversity\Capstone_Project\Drunk_Detection\Sober_Cropped_Face"
+    inp_path = r"D:\FPTUniversity\Capstone_Project\Code_tesst\out3"
+    out_path = r"D:\FPTUniversity\Capstone_Project\Drunk_Detection\test\drunk"
     process_image_folder(inp_path, out_path)
